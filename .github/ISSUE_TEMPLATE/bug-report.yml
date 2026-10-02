@@ -1,0 +1,34 @@
+{
+  "name": "Bug report",
+  "description": "Report something that is not working.",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Do not post private email content, credentials, mailbox identifiers, access tokens or other sensitive information. Check screenshots before attaching them."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "problem",
+      "attributes": {
+        "label": "What went wrong?",
+        "description": "What happened, and what did you expect?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "How can we reproduce it?",
+        "description": "List the steps. Include the ReplyPort version and exact error wording if known, with private details removed."
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}
